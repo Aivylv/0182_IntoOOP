@@ -17,7 +17,7 @@ public: // akses modifier
 
 
 class Matakuliah {
-
+private:
 };
 
 int main(){
