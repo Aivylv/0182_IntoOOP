@@ -5,6 +5,15 @@ class bangunDatar {
     //akses modifier
 private:
     float panjang, Lebar;
+
+    void input() { // methode input persegi panjang
+
+        cout << "Masukan Panjangnya = ";
+        cin >> panjang;
+        cout << "Masukan Lebarnya = ";
+        cin >> Lebar;
+    }
+
 };
 
 int main() {
