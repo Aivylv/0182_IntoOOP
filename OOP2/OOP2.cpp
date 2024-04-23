@@ -5,7 +5,7 @@ class bangunDatar {
     //akses modifier
 private:
     float panjang, Lebar;
-
+public:
     void input() { // methode input persegi panjang
 
         cout << "Masukan Panjangnya = ";
@@ -24,5 +24,9 @@ private:
 };
 
 int main() {
-    
+    bangunDatar pp; // deklarasi objek pp dari class bangunDatar
+    pp.input();
+    pp.display();
+
+    return 0;
 }
